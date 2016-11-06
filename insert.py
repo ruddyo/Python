@@ -1,2 +1,2 @@
 def inser(list):
-	pass
+	pass.
