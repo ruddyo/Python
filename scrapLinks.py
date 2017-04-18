@@ -17,11 +17,11 @@ def scrapLinks(s):
 
 	# return url, count,
 
-def links(s):
-	startQuote = s.find('"')+1
-	endQuote = s.find('"', startQuote+1)
-	links = s[startQuote:endQuote]
-	return links
+# def links(s):
+# 	startQuote = s.find('"')+1
+# 	endQuote = s.find('"', startQuote+1)
+# 	links = s[startQuote:endQuote]
+# 	return links
 
 
 s = '''
@@ -35,66 +35,7 @@ s = '''
         Meta Stack Overflow
     </a>
 <a href="http://meeeeeta.stackoverflow.com"
-<a href="http://meta.stackoverflow.com"
-       class="site-link js-gps-track"
-       data-id="552"
-       data-gps-track="
-            site.switch({ target_site:552, item_type:3 }),
-        site_switcher.click({ item_type:4 })">
-        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
-        Meta Stack Overflow
-    </a>
-<a href="http://meeeeeta.stackoverflow.com"
-<a href="http://meta.stackoverflow.com"
-       class="site-link js-gps-track"
-       data-id="552"
-       data-gps-track="
-            site.switch({ target_site:552, item_type:3 }),
-        site_switcher.click({ item_type:4 })">
-        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
-        Meta Stack Overflow
-    </a>
-<a href="http://meeeeeta.stackoverflow.com"
-<a href="http://meta.stackoverflow.com"
-       class="site-link js-gps-track"
-       data-id="552"
-       data-gps-track="
-            site.switch({ target_site:552, item_type:3 }),
-        site_switcher.click({ item_type:4 })">
-        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
-        Meta Stack Overflow
-    </a>
-<a href="http://meeeeeta.stackoverflow.com"
-<a href="http://meta.stackoverflow.com"
-       class="site-link js-gps-track"
-       data-id="552"
-       data-gps-track="
-            site.switch({ target_site:552, item_type:3 }),
-        site_switcher.click({ item_type:4 })">
-        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
-        Meta Stack Overflow
-    </a>
-<a href="http://meeeeeta.stackoverflow.com"
-<a href="http://meta.stackoverflow.com"
-       class="site-link js-gps-track"
-       data-id="552"
-       data-gps-track="
-            site.switch({ target_site:552, item_type:3 }),
-        site_switcher.click({ item_type:4 })">
-        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
-        Meta Stack Overflow
-    </a>
-<a href="http://meeeeeta.stackoverflow.com"
-<a href="http://meta.stackoverflow.com"
-       class="site-link js-gps-track"
-       data-id="552"
-       data-gps-track="
-            site.switch({ target_site:552, item_type:3 }),
-        site_switcher.click({ item_type:4 })">
-        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
-        Meta Stack Overflow
-    </a>
-<a href="http://meeeeeta.stackoverflow.comm"
+aqui
 
 
 '''
